@@ -1,0 +1,14 @@
+.cvsignore
+Build.PL
+Changes
+MANIFEST
+META.yml
+Makefile.PL
+README
+lib/XML/Easy/SimpleSchemaUtil.pm
+t/chars.t
+t/pod_cvg.t
+t/pod_syn.t
+t/short_names.t
+t/subelems.t
+SIGNATURE    Added here by Module::Build
