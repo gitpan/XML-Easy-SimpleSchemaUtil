@@ -25,6 +25,7 @@ name: XML-Easy-SimpleSchemaUtil
 provides:
   XML::Easy::SimpleSchemaUtil:
     file: lib/XML/Easy/SimpleSchemaUtil.pm
+    version: 0.001
 requires:
   Params::Classify: 0
   XML::Easy::Classify: 0.006
@@ -36,4 +37,4 @@ requires:
   warnings: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.000
+version: 0.001

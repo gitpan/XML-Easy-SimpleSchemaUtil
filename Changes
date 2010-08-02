@@ -1,3 +1,9 @@
+version 0.001; 2010-08-02
+
+  * bugfix: set $VERSION in module
+
+  * test xml_{s,c}_canonise_chars
+
 version 0.000; 2010-08-02
 
   * initial released version

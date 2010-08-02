@@ -6,6 +6,7 @@ META.yml
 Makefile.PL
 README
 lib/XML/Easy/SimpleSchemaUtil.pm
+t/charcanon.t
 t/chars.t
 t/pod_cvg.t
 t/pod_syn.t

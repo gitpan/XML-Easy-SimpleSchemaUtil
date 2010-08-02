@@ -43,6 +43,8 @@ use XML::Easy::NodeBasics 0.006
 	qw(xml_content_object xml_content_twine xml_c_content_twine);
 use XML::Easy::Syntax 0.000 qw($xml10_s_rx);
 
+our $VERSION = "0.001";
+
 use parent "Exporter";
 our @EXPORT_OK = qw(
 	xml_s_canonise_chars xs_charcanon xml_c_canonise_chars xc_charcanon
