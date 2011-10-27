@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.64.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,24 +14,25 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 aa11a7ed6b3c8268ee2416d62203bb27cee25eea .cvsignore
-SHA1 2731abf5e8f0b64cd5769e9430b83ff3f2001ae5 Build.PL
-SHA1 2b148ae1d76faef490ef74c7db47e48447ea1205 Changes
-SHA1 622be774d02ccdc846eb4b75933cbf1ee9907b32 MANIFEST
-SHA1 f54bfc160c071662c3c0acdc0507798939e31598 META.yml
-SHA1 caae608231ffe78390c76451ade51a7cfc87a9f9 Makefile.PL
-SHA1 6348435face1621c9b2148388f8d707ab480663e README
-SHA1 8ec56542b76fbcb66824aad06d9fc555c838adca lib/XML/Easy/SimpleSchemaUtil.pm
-SHA1 51540dfeeddf78bd88fc2bce4bd3821f960cd5f8 t/charcanon.t
-SHA1 1e6f4a8e56367915cf98a300534cc951eed7c3b4 t/chars.t
+SHA1 c295aae748fa7d3269505943f8f5f21f00e299c7 .gitignore
+SHA1 1adffc9373f4554de38a5273ca0b7728ac29b893 Build.PL
+SHA1 eceb79d428f2b3e50a77edb4e5b17d5bfac7009c Changes
+SHA1 87b2daa851b0ed21b8df96a04e0bda73e2221781 MANIFEST
+SHA1 9da19210f3a78ff4cf9b22888ca6408087429ee3 META.json
+SHA1 dc7f1d1ae1c380269414adbe77a986b24693f33d META.yml
+SHA1 a4df8e97ccd390a42212af5a9f4d0986c85e7a5f Makefile.PL
+SHA1 6fdb797f32cef5ab476b85c999d9aa67fdb817d3 README
+SHA1 935cb09d2edcb2b87f74d763610cad630dfe0aac lib/XML/Easy/SimpleSchemaUtil.pm
+SHA1 5286c944cf67b6bbd275f34676b383c224e98ffa t/charcanon.t
+SHA1 e6dcfb726cd5cc7b1c7c55a7e787a0c7307ca94e t/chars.t
 SHA1 904d9a4f76525e2303e4b0c168c68230f223c8de t/pod_cvg.t
 SHA1 65c75abdef6f01a5d1588a307f2ddfe2333dc961 t/pod_syn.t
 SHA1 8bb1536ed92dc2359d5cf36c84d3044a575b4254 t/short_names.t
-SHA1 29ec9b0645f417a61b3fe252dc7a55f88369d4f6 t/subelems.t
+SHA1 ed8107d6de85a5a8a8567da91cad090cf63ea01a t/subelems.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.9 (GNU/Linux)
+Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkxXEs4ACgkQOV9mt2VyAVELUQCfbLrRSUHNYcNg2X+DJthT7BjT
-btgAnR9rmMRRik4WCnAnTXK3Fs6q/ebR
-=050I
+iEYEARECAAYFAk6p0qkACgkQOV9mt2VyAVHWBQCbBI4LJxKzd9yO22xeT9qu9hiE
+rBsAnjWggvcdSqAPc8vRwOD/vHOMW4Jf
+=JQ6L
 -----END PGP SIGNATURE-----

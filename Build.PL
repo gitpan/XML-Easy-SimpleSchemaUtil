@@ -16,7 +16,7 @@ Module::Build->new(
 	build_requires => {
 		"Module::Build" => 0,
 		"Test::More" => 0,
-		"XML::Easy::NodeBasics" => "0.006",
+		"XML::Easy::NodeBasics" => "0.007",
 		"perl" => "5.006",
 		"strict" => 0,
 		"warnings" => 0,
@@ -24,7 +24,7 @@ Module::Build->new(
 	requires => {
 		"Params::Classify" => 0,
 		"XML::Easy::Classify" => "0.006",
-		"XML::Easy::NodeBasics" => "0.006",
+		"XML::Easy::NodeBasics" => "0.007",
 		"XML::Easy::Syntax" => 0,
 		"parent" => 0,
 		"perl" => "5.006",

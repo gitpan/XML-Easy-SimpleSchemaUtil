@@ -2,7 +2,7 @@ use warnings;
 use strict;
 
 use Test::More tests => 1 + 3*10*2 + 2*10 + 2;
-use XML::Easy::NodeBasics 0.006 qw(xml_element xml_content_object);
+use XML::Easy::NodeBasics 0.007 qw(xml_element xml_content_object);
 
 BEGIN {
 	use_ok "XML::Easy::SimpleSchemaUtil",

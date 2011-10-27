@@ -2,7 +2,7 @@ use warnings;
 use strict;
 
 use Test::More tests => 1 + 4*14 + 2;
-use XML::Easy::NodeBasics 0.006
+use XML::Easy::NodeBasics 0.007
 	qw(xml_content_object xml_content_twine xml_element);
 
 BEGIN { use_ok "XML::Easy::SimpleSchemaUtil", qw(xml_c_subelements); }

@@ -34,16 +34,17 @@ so they can be manipulated with no knowledge of XML syntax.
 
 package XML::Easy::SimpleSchemaUtil;
 
+{ use 5.006; }
 use warnings;
 use strict;
 
 use Params::Classify 0.000 qw(is_ref);
 use XML::Easy::Classify 0.006 qw(check_xml_chardata check_xml_content_twine);
-use XML::Easy::NodeBasics 0.006
+use XML::Easy::NodeBasics 0.007
 	qw(xml_content_object xml_content_twine xml_c_content_twine);
 use XML::Easy::Syntax 0.000 qw($xml10_s_rx);
 
-our $VERSION = "0.001";
+our $VERSION = "0.002";
 
 use parent "Exporter";
 our @EXPORT_OK = qw(
@@ -301,6 +302,8 @@ Andrew Main (Zefram) <zefram@fysh.org>
 =head1 COPYRIGHT
 
 Copyright (C) 2010 PhotoBox Ltd
+
+Copyright (C) 2011 Andrew Main (Zefram) <zefram@fysh.org>
 
 =head1 LICENSE
 
